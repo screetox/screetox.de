@@ -3,7 +3,40 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Inconsolata';font-size: 22px;
+}
+
 a {
     color: #fff;
     text-decoration: none;
+}
+
+#header, #main, #footer {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#top-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 72px;
+    padding: 10px calc(40px + 0.6em);
+}
+
+#main-nav {
+    display: flex;
+    gap: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #ffffffa6;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 1px;
+    text-transform: none;
 }
