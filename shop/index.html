@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="../files/img/favicon.ico">
-    <link href='../css/inconsolata.css' rel='stylesheet'>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/shop.css">
+    <link rel="icon" type="image/x-icon" href="/files/img/favicon.ico">
+    <link rel="stylesheet" href="/css/inconsolata.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/shop.css">
     <title>screetox.de</title>
 </head>
+
 <body>
-    <div id="header" style="background-image: url('../files/img/Unique-youtube-banner-blank_180.jpg'); color: white;">
-        <hr style="border: 2px solid #1BB0D1;">
+    <hr id="top-hr">
+    <div id="header">
         <div id="top-menu">
-            <img id="website-logo" src="../files/img/logo_2021_klein.png">
-            <nav id="main-nav">
+            <a href="/"><img id="website-logo" src="/files/img/logo_2021_klein.png"></a>
+            <nav id="header-nav">
                 <a href="/">Home</a>
-                <a href="https://twitch.tv/screetox">Twitch</a>
-                <a href="https://www.youtube.com/channel/UCErEad8EovKrByoIZPC6yhQ?sub_confirmation=1">YouTube</a>
-                <a href="https://discord.gg/a7yewEFapG">Discord</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitch.tv/screetox">Twitch</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCErEad8EovKrByoIZPC6yhQ?sub_confirmation=1">YouTube</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/a7yewEFapG">Discord</a>
                 <a href="/#clips">Clips</a>
                 <a href="/#team">Team</a>
             </nav>
@@ -26,10 +27,24 @@
     </div>
 
     <div id="myspreadshop">
-        <a href="https://screetox.myspreadshop.de">screetox</a>
+        <div id="shop-loading-placeholder">Shop wird geladen...</div>
     </div>
 
-    <script src="../js/shop.js"></script>
-    <script type="text/javascript" src="../js/shopclient.nocache.js"></script>
+    <div id="footer">
+        <div id="bottom-menu">
+                <nav id="footer-nav">
+                    <a href="/">Home</a>
+                    <a href="/impressum">Impressum</a>
+                    <a href="http://quiz.screetox.de/">Quiz-Tool</a>
+                </nav>
+                <div id="copyright">© 2022 screetox.de</div>
+                <div id="footer-img">
+                    <a href="/"><img id="website-logo" src="/files/img/logo_2021_klein.png"></a>
+                </div>
+        </div>
+    </div>
+
+    <script src="/js/shop.js"></script>
+    <script type="text/javascript" src="/js/shopclient.nocache.js"></script>
 </body>
 </html>

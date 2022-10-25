@@ -1,0 +1,18 @@
+.main-section-1, .main-section-3 {
+    background-color: #fff;
+    color: #000;
+}
+
+.main-section-2, .main-section-4 {
+    background-color: #f5fafd;
+    color: #000;
+}
+
+.contact-form {
+    background-color: #000000A9;
+    color: #fff;
+}
+
+#welcome {
+    color: #fff;
+}
