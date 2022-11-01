@@ -7,7 +7,7 @@ body {
     font-family: 'Inconsolata';
     font-size: 22px;
 
-    background-image: url('/files/img/Unique-youtube-banner-blank_180.jpg');
+    background-image: url(/files/img/Unique-youtube-banner-blank_180.jpg);
     background-color: #000;
     background-repeat: no-repeat;
     background-attachment: fixed;
