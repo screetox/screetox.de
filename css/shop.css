@@ -13,3 +13,9 @@
     align-items: center;
     justify-content: center;
 }
+
+@media only screen and (max-width: 535px) {
+    #home-link-footer {
+        display: none;
+    }
+}

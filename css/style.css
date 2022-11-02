@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+.website-logo {
+    display: block;
+}
+
 #top-hr {
     border: 2px solid #1BB0D1;
 }
@@ -74,4 +78,34 @@ a {
     display: flex;
     justify-content: end;
     flex: 1;
+}
+
+@media only screen and (max-width: 925px) {
+    #footer-img {
+        display: none;
+    }
+
+    #copyright {
+        justify-content: end;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    #header-nav {
+        display: none;
+    }
+
+    #top-menu {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #bottom-menu {
+        flex-direction: column;
+    }
+
+    #footer-nav {
+        margin-right: 0;
+    }
 }

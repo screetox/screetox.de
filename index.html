@@ -14,13 +14,13 @@
     <hr id="top-hr">
     <div id="header">
         <div id="top-menu">
-            <a href="/"><img id="website-logo" src="/files/img/logo_2021_klein.png"></a>
+            <a href="/"><img class="website-logo" src="/files/img/logo_2021_klein.png"></a>
             <nav id="header-nav">
                 <a href="/shop">Shop</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://twitch.tv/screetox">Twitch</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCErEad8EovKrByoIZPC6yhQ?sub_confirmation=1">YouTube</a>
                 <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/a7yewEFapG">Discord</a>
-                <a href="#clips">Clips</a>
+                <a href="#clips" id="clips-link-header-nav">Clips</a>
                 <a href="#team">Team</a>
             </nav>
         </div>
@@ -45,7 +45,7 @@
                         <img src="/files/img/twitch-logo.png">
                     </a>
                 </div>
-                <p>Die perfekte Plattform für Livestreams, auch ich bin dort sehr aktiv und würde mich freuen, den ein oder anderen von euch dort zu treffen.</p>
+                <p>Twitch ist die perfekte Plattform für Livestreams, auch ich bin dort sehr aktiv. Es würde mich sehr freuen, wenn ich den ein oder anderen von euch auf meinem Kanal treffe.</p>
                 <button class="link-button" onclick="toTwitch()">zu Twitch</button>
             </div>
             <div id="youtube-link" class="link-item">
@@ -54,7 +54,7 @@
                         <img src="/files/img/youtube-logo.png">
                     </a>
                 </div>
-                <p>Hier werden in Zukunft Stream-Highlights und jede mögliche Art von Video hochgeladem, um euch das Maximum an Unterhaltung bieten zu können.</p>
+                <p>Auf YouTube werden in Zukunft Stream-Highlights und jede mögliche Art von Video hochgeladen, um euch das Maximum an Unterhaltung bieten zu können. (coming soon)</p>
                 <button class="link-button" onclick="toYouTube()">zu YouTube</button>
             </div>
             <div id="shop-link" class="link-item">
@@ -63,7 +63,7 @@
                         <img src="/files/img/shop-logo.png">
                     </a>
                 </div>
-                <p>Hier gibt es allerlei Merchandise mit screetox-Designelementen. Du hast Ideen, wie der Shop noch besser werden kann? Dann melde dich super gerne bei mir!</p>
+                <p>Im Shop gibt es allerlei Merchandise mit screetox-Designelementen. Du hast Ideen, wie der Shop noch besser werden kann? Dann melde dich super gerne bei mir!</p>
                 <button class="link-button" onclick="toShop()">zum Shop</button>
             </div>
         </div>
@@ -98,7 +98,11 @@
             </div>
         </div>
         <div id="clips" class="main-section-3">
-            clips
+            <p>clips</p>
+            <iframe src="https://clips.twitch.tv/embed?clip=CovertSingleWatercressNerfBlueBlaster&amp;parent=h2990880.stratoserver.net" allowfullscreen="true" scrolling="no" width="544" height="306" frameborder="0"></iframe>
+            <iframe src="https://clips.twitch.tv/embed?clip=GrotesqueGloriousAntelopeWOOP&amp;parent=h2990880.stratoserver.net" allowfullscreen="true" scrolling="no" width="544" height="306" frameborder="0"></iframe>
+            <iframe src="https://clips.twitch.tv/embed?clip=SpotlessBeautifulSnoodSwiftRage&amp;parent=h2990880.stratoserver.net" allowfullscreen="true" scrolling="no" width="544" height="306" frameborder="0"></iframe>
+            <iframe src="https://clips.twitch.tv/embed?clip=KitschyBlazingJellyfishSuperVinlin-UpIdxXlrgQonx3pv&amp;parent=h2990880.stratoserver.net" allowfullscreen="true" scrolling="no" width="544" height="306" frameborder="0"></iframe>
         </div>
         <div id="team" class="main-section-4">
             team
@@ -111,13 +115,13 @@
     <div id="footer">
         <div id="bottom-menu">
                 <nav id="footer-nav">
-                    <a href="/shop">Shop</a>
+                    <a href="/shop" id="shop-link-footer">Shop</a>
                     <a href="/impressum">Impressum</a>
-                    <a href="http://quiz.screetox.de/">Quiz-Tool</a>
+                    <a href="http://quiz.screetox.de/" id="quiz-tool-link">Quiz-Tool</a>
                 </nav>
                 <div id="copyright">© 2022 screetox.de</div>
                 <div id="footer-img">
-                    <a href="/"><img id="website-logo" src="/files/img/logo_2021_klein.png"></a>
+                    <a href="/"><img class="website-logo" src="/files/img/logo_2021_klein.png"></a>
                 </div>
         </div>
     </div>

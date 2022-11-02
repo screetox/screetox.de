@@ -20,3 +20,16 @@ p {
     padding: 3em 5em;
     text-align: start;
 }
+
+@media only screen and (max-width: 1000px) {
+    #impressum-text {
+        padding: 3em 2em;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    #shop-link-footer {
+        display: none;
+    }
+}
