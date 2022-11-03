@@ -1,5 +1,5 @@
 function toShop() {
-    location.href = '/shop';
+    location.href = './shop';
 }
 
 function toTwitch() {

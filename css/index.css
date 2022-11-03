@@ -43,7 +43,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     display: flex;
     height: 80px;
 
-    background-image: url(/files/img/Unique-youtube-banner-blank_180.jpg);
+    background-image: url(../files/img/Unique-youtube-banner-blank_180.jpg);
     background-color: #000;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -73,7 +73,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 .link-button {
-    background-image: url(/files/img/Unique-youtube-banner-blank_180.jpg);
+    background-image: url(../files/img/Unique-youtube-banner-blank_180.jpg);
     background-color: #000;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -221,26 +221,26 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 #twitch-link .link-icon-effect {
-    -webkit-mask-image: url(/files/img/twitch-logo-mask.png);
-    mask-image: url(/files/img/twitch-logo-mask.png);
+    -webkit-mask-image: url(../files/img/twitch-logo-mask.png);
+    mask-image: url(../files/img/twitch-logo-mask.png);
 }
 
 #youtube-link .link-icon-effect {
-    -webkit-mask-image: url(/files/img/youtube-logo-mask.png);
-    mask-image: url(/files/img/youtube-logo-mask.png);
+    -webkit-mask-image: url(../files/img/youtube-logo-mask.png);
+    mask-image: url(../files/img/youtube-logo-mask.png);
 }
 
 #shop-link .link-icon-effect {
-    -webkit-mask-image: url(/files/img/shop-logo-mask.png);
-    mask-image: url(/files/img/shop-logo-mask.png);
+    -webkit-mask-image: url(../files/img/shop-logo-mask.png);
+    mask-image: url(../files/img/shop-logo-mask.png);
 }
 
 #youtube-link .link-icon-effect a {
-    background-image: url(/files/img/youtube-logo-placeholder.png);
+    background-image: url(../files/img/youtube-logo-placeholder.png);
 }
 
 #shop-link .link-icon-effect a {
-    background-image: url(/files/img/shop-logo-placeholder.png);
+    background-image: url(../files/img/shop-logo-placeholder.png);
 }
 
 @media only screen and (max-width: 1300px) {
