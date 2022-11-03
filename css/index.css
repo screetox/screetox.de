@@ -144,6 +144,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 .contact-form {
+    padding: 60px;
     background-color: #000000A9;
     color: #fff;
 }
@@ -234,18 +235,28 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 #twitch-link .link-icon-effect {
-    -webkit-mask-image: url(../files/img/twitch-logo-mask.png);
-    mask-image: url(../files/img/twitch-logo-mask.png);
+    -webkit-mask-image: url(../files/img/twitch-logo.png);
+    mask-image: url(../files/img/twitch-logo.png);
 }
 
 #youtube-link .link-icon-effect {
-    -webkit-mask-image: url(../files/img/youtube-logo-mask.png);
-    mask-image: url(../files/img/youtube-logo-mask.png);
+    -webkit-mask-image: url(../files/img/youtube-logo.png);
+    mask-image: url(../files/img/youtube-logo.png);
 }
 
 #shop-link .link-icon-effect {
-    -webkit-mask-image: url(../files/img/shop-logo-mask.png);
-    mask-image: url(../files/img/shop-logo-mask.png);
+    -webkit-mask-image: url(../files/img/shop-logo.png);
+    mask-image: url(../files/img/shop-logo.png);
+}
+
+#mail-link .link-icon-effect {
+    -webkit-mask-image: url(../files/img/mail-logo.png);
+    mask-image: url(../files/img/mail-logo.png);
+}
+
+#discord-link .link-icon-effect {
+    -webkit-mask-image: url(../files/img/discord-logo.png);
+    mask-image: url(../files/img/discord-logo.png);
 }
 
 #youtube-link .link-icon-effect a {
@@ -282,6 +293,16 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     margin-top: 0;
 }
 
+#contact-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#mail-link, #discord-link {
+    gap: 10px;
+}
+
 @media only screen and (max-width: 1300px) {
     #clips-link-header-nav, #clips {
         display: none;
@@ -289,7 +310,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 @media only screen and (max-width: 1000px) {
-    #welcome-img, #links p, #contact {
+    #welcome-img, #links p {
         display: none;
     }
 
@@ -330,17 +351,17 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 @media only screen and (max-width: 535px) {
-    #welcome-text p, #opinions, #team, #shop-link-footer {
+    #welcome-text p, #opinions, #team, #shop-link-footer, #contact h2 {
         display: none;
     }
 
-    #welcome-text h1 {
+    #welcome-text h1, #contact h1 {
         font-size: 30px;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    #shop-link {
+    #shop-link, #contact {
         display: none;
     }
 }
