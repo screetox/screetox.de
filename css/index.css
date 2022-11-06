@@ -304,6 +304,10 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     justify-content: space-evenly;
 }
 
+#contact-links .link-icon-effect a {
+    backdrop-filter: brightness(2);
+}
+
 #mail-link, #discord-link {
     gap: 10px;
 }
