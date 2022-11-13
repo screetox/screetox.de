@@ -4,5 +4,4 @@ var spread_shop_config = {
     baseId: 'myspreadshop',
     locale: 'de_DE',
     updateMetadata: false,
-    usePushState: true,
 };
