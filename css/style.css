@@ -1,4 +1,4 @@
-*:not(#myspreadshop, #myspreadshop *) {
+* {
     margin: 0;
     padding: 0;
 }
