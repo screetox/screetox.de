@@ -1,0 +1,24 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../files/img/favicon.ico">
+    <link rel="stylesheet" href="../css/inconsolata.css">
+    <link rel="stylesheet" href="../css/chat.css">
+    <title>screetox.de</title>
+</head>
+
+<body>
+    <div id="form">
+        <div id="input">
+            <input id="channel-input" type="text">
+            <button id="btn" onclick="changeChatChannel()">GO!</button>
+        </div>
+        <p id="h1">Chat von screetox:</p>
+    </div>
+
+    <iframe id="chat-frame" src="https://www.twitch.tv/embed/screetox/chat?parent=screetox.de&parent=localhost&darkpopout"></iframe>
+
+    <script src="../js/chat.js"></script>
+</body>
+</html>
