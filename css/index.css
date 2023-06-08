@@ -312,13 +312,13 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     gap: 10px;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400.98px) {
     .main-section-1, .contact-form {
         border-radius: 0;
     }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1300.98px) {
     #clips-link-header-nav, #clips {
         display: none;
     }
@@ -328,7 +328,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000.98px) {
     #welcome-img, #links p {
         display: none;
     }
@@ -349,7 +349,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 670.98px) {
     #links button, #welcome-text button, #quiz-tool-link {
         display: none;
     }
@@ -369,7 +369,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     }
 }
 
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 535.98px) {
     #welcome-text p, #opinions, #team, #shop-link-footer, #contact h2 {
         display: none;
     }
@@ -379,7 +379,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400.98px) {
     #shop-link, #contact {
         display: none;
     }

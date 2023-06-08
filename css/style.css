@@ -81,7 +81,7 @@ a {
     flex: 1;
 }
 
-@media only screen and (max-width: 925px) {
+@media only screen and (max-width: 925.98px) {
     #footer-img {
         display: none;
     }
@@ -91,7 +91,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 670.98px) {
     #header-nav {
         display: none;
     }
@@ -101,7 +101,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400.98px) {
     #bottom-menu {
         flex-direction: column;
     }

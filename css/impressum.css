@@ -22,20 +22,20 @@ p {
     text-align: start;
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400.98px) {
     .impressum-text {
         border-radius: 0;
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000.98px) {
     #impressum-text {
         padding: 3em 2em;
         font-size: 16px;
     }
 }
 
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 535.98px) {
     #shop-link-footer {
         display: none;
     }
