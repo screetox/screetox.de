@@ -1,3 +1,7 @@
+* {
+    transition: opacity .3s, background-color .2s, box-shadow .1s;
+}
+
 button {
     padding: 8px 18px;
     border: 0px solid;
@@ -198,7 +202,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 #header-button-1:hover {
-    opacity: 0.8;
+    background-color: #ffffffcc;
 }
 
 #header-button-2 {
@@ -305,7 +309,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 #contact-links .link-icon-effect a {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: #ffffff1a;
 }
 
 #mail-link, #discord-link {
