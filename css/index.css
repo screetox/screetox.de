@@ -217,6 +217,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 
 #main h2 {
     font-weight: normal;
+    margin-bottom: 40px;
 }
 
 #main h3 {
@@ -275,8 +276,8 @@ div[class^="main-section-"], div[class*=" main-section-"] {
     margin: 0 235px 40px 235px;
 }
 
-#opinions h2 {
-    margin-bottom: 40px;
+#team h2 {
+    margin-bottom: 10px;
 }
 
 #team-grid {
