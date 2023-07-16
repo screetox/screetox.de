@@ -101,7 +101,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 400.98px) {
+@media only screen and (max-width: 464.98px) {
     #bottom-menu {
         flex-direction: column;
     }
