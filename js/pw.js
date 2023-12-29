@@ -19,31 +19,31 @@ const tempFilteredWords = [];
 var filteredWords = [];
 
 letter1.addEventListener('input', () => {
-    if(letter1.value.length > 4) {
+    if(letter1.value.length > 5) {
         letter2.focus();
     }
     filterWords();
 });
 letter2.addEventListener('input', () => {
-    if(letter2.value.length > 4) {
+    if(letter2.value.length > 5) {
         letter3.focus();
     }
     filterWords();
 });
 letter3.addEventListener('input', () => {
-    if(letter3.value.length > 4) {
+    if(letter3.value.length > 5) {
         letter4.focus();
     }
     filterWords();
 });
 letter4.addEventListener('input', () => {
-    if(letter4.value.length > 4) {
+    if(letter4.value.length > 5) {
         letter5.focus();
     }
     filterWords();
 });
 letter5.addEventListener('input', () => {
-    if(letter5.value.length > 4) {
+    if(letter5.value.length > 5) {
         possibleWords.focus();
     }
     filterWords();
