@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../files/img/favicon.ico">
+    <link rel="stylesheet" href="../css/inconsolata.css">
+    <title>Passwort - screetox</title>
+</head>
+
+<body style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 16px;">
+    <div style="display: flex; justify-content: center; align-items: center; gap: 16px;">
+        <input id="letter1">
+        <input id="letter2">
+        <input id="letter3">
+        <input id="letter4">
+        <input id="letter5">
+    </div>
+    <p id="possible-words"></p>
+    <button onclick="resetAll()">Alles löschen!</button>
+</body>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Inconsolata';
+        font-size: 22px;
+
+        background-image: url(../files/img/Unique-youtube-banner-blank_180.jpg);
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    input {
+        width: 84px;
+        height: 38px;
+        font-family: 'Inconsolata';
+        font-size: 22px;
+    }
+
+    p {
+        height: 38px;
+        color: #fff;
+        cursor: default;
+    }
+
+    button {
+        padding: 4px 8px;
+        background-color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        border: 1px solid #000;
+        border-radius: 4px;
+    }
+</style>
+
+<script src="../js/pw.js"></script>
+
+</html>
