@@ -341,7 +341,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 @media only screen and (max-width: 1000.98px) {
-    #welcome-img, #links p {
+    #welcome-img, #links p, #shop-link, #shop-link-header, #shop-link-footer {
         display: none;
     }
 
@@ -382,7 +382,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 @media only screen and (max-width: 535.98px) {
-    #welcome-text p, #opinions, #team, #shop-link-footer, #contact h2 {
+    #welcome-text p, #opinions, #team, #contact h2 {
         display: none;
     }
 
@@ -392,7 +392,7 @@ div[class^="main-section-"], div[class*=" main-section-"] {
 }
 
 @media only screen and (max-width: 400.98px) {
-    #shop-link, #contact {
+    #contact {
         display: none;
     }
 }
