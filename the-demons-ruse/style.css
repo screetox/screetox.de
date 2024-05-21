@@ -1,0 +1,276 @@
+/* FONT */
+@import url('julee.css');
+
+
+/* STYLING */
+
+:root {
+    --dark-color-a: #5555aa;
+    --dark-color-b: #7777cc;
+    --light-color: #ededff;
+    --button-color: #000;
+    --button-hover-color: #333;
+    --dark-color-a-transparent: #5555aa66;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Julee', cursive;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #000;
+    background-image: url(./img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    line-height: 128px;
+    font-size: 128px;
+}
+
+h2 {
+    line-height: 64px;
+    font-size: 64px;
+}
+
+h3 {
+    line-height: 32px;
+    font-size: 32px;
+}
+
+a, button, .player-radio-button-label {
+    cursor: pointer;
+}
+
+button {
+    font-size: 24px;
+    width: 196px;
+    height: 46px;
+    padding: 6px 12px;
+    background: var(--button-color);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+button:hover {
+    background: var(--button-hover-color);
+}
+
+input {
+    font-size: 16px;
+    background-color: #000;
+    padding: 8px 16px;
+    border: 1px solid #fff;
+}
+
+hr {
+    width: 96vw;
+    margin: 32px 0;
+    border: 1px solid #fff;
+}
+
+.vr {
+    margin: 0 32px;
+    border: 1px solid #fff;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.h100vh {
+    min-height: 100vh;
+}
+
+.h32 {
+    height: 32px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w64 {
+    width: 64px;
+}
+
+.w46 {
+    width: 46px;
+}
+
+.w32 {
+    width: 32px;
+}
+
+.m32 {
+    margin: 32px;
+}
+
+.m16 {
+    margin: 16px;
+}
+
+.tl-btn {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.br-btn {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+}
+
+.big-btn {
+    font-size: 48px;
+    padding: 8px 16px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.g64 {
+    gap: 64px;
+}
+
+.g32 {
+    gap: 32px;
+}
+
+.g16 {
+    gap: 16px;
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(5px 5px 5px #000);
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+.player-image {
+    width: 256px;
+    height: 256px;
+    border-radius: 128px;
+    margin-bottom: 12px;
+}
+
+.player-radio-button {
+    display: none;
+}
+
+.player-radio-button:checked + .player-radio-button-label {
+    filter: brightness(100%);
+}
+
+.player-radio-button-label {
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+
+    background-color: var(--button-color);
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+.point-animation {
+    text-align: center;
+    overflow: visible;
+}
+
+.point-animation h3 {
+    overflow: visible;
+    width: 36px;
+    height: 36px;
+}
+
+span[id$='-points'] {
+    position: absolute;
+    text-align: end;
+    transition: transform 0.5s ease-in, opacity 0.4s ease-in;
+}
+
+span[id$='-new-points'] {
+    opacity: 0;
+    transform: translate(-50%, 0px);
+}
+
+span[id$='-current-points'] {
+    transform: translate(-50%, 0px);
+}
+
+#title {
+    order: 0;
+}
+
+#points {
+    order: 1;
+}
+
+#user-point-config {
+    position: absolute;
+    right: 12px;
+    padding: 36px;
+    background-color: #0006;
+    border-radius: 36px;
+}
+
+
+/* ANIMATIONS */
+
+*[id^='section-'] {
+    opacity: 1;
+    animation: fade-in 0.5s ease-in-out;
+}
+
+.opacity0animation {
+    opacity: 0;
+    animation: fade-out 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
