@@ -19,6 +19,8 @@
 
     font-family: 'Julee', cursive;
     color: #fff;
+
+    overflow: hidden;
 }
 
 html, body {
@@ -74,76 +76,8 @@ input {
     border: 1px solid #fff;
 }
 
-hr {
-    width: 96vw;
-    margin: 32px 0;
-    border: 1px solid #fff;
-}
-
-.vr {
-    margin: 0 32px;
-    border: 1px solid #fff;
-}
-
-.h100 {
-    height: 100%;
-}
-
 .h100vh {
     min-height: 100vh;
-}
-
-.h32 {
-    height: 32px;
-}
-
-.w100 {
-    width: 100%;
-}
-
-.w64 {
-    width: 64px;
-}
-
-.w46 {
-    width: 46px;
-}
-
-.w32 {
-    width: 32px;
-}
-
-.m32 {
-    margin: 32px;
-}
-
-.m16 {
-    margin: 16px;
-}
-
-.tl-btn {
-    position: absolute;
-    top: 16px;
-    left: 16px;
-}
-
-.br-btn {
-    position: absolute;
-    bottom: 16px;
-    right: 16px;
-}
-
-.big-btn {
-    font-size: 48px;
-    padding: 8px 16px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.relative {
-    position: relative;
 }
 
 .flex {
@@ -156,20 +90,8 @@ hr {
     flex-direction: column;
 }
 
-.stretch {
-    align-items: stretch;
-}
-
-.g64 {
-    gap: 64px;
-}
-
 .g32 {
     gap: 32px;
-}
-
-.g16 {
-    gap: 16px;
 }
 
 .shadow {
@@ -177,100 +99,30 @@ hr {
     filter: drop-shadow(5px 5px 5px #000);
 }
 
-.player-image {
-    width: 256px;
-    height: 256px;
-    border-radius: 128px;
-    margin-bottom: 12px;
+#welcome-img {
+    transform: translateY(75px);
+    transition: transform 3s ease-in-out;
 }
 
-.player-radio-button {
-    display: none;
+#login-form {
+    height: 150px;
+    opacity: 0;
+    transition: opacity 2s ease-in-out 1s;
 }
 
-.player-radio-button:checked + .player-radio-button-label {
-    filter: brightness(100%);
-}
-
-.player-radio-button-label {
-    width: 96px;
-    height: 96px;
-    border-radius: 48px;
-
-    background-color: var(--button-color);
-    background-size: cover;
-    filter: brightness(50%);
-}
-
-.point-animation {
+#login-form input {
+    width: 250px;
     text-align: center;
-    overflow: visible;
 }
 
-.point-animation h3 {
-    overflow: visible;
-    width: 36px;
-    height: 36px;
+#loader {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
 }
 
-span[id$='-points'] {
-    position: absolute;
-    text-align: end;
-    transition: transform 0.5s ease-in, opacity 0.4s ease-in;
-}
-
-span[id$='-new-points'] {
+#loading {
     opacity: 0;
-    transform: translate(-50%, 0px);
-}
-
-span[id$='-current-points'] {
-    transform: translate(-50%, 0px);
-}
-
-#title {
-    order: 0;
-}
-
-#points {
-    order: 1;
-}
-
-#user-point-config {
-    position: absolute;
-    right: 12px;
-    padding: 36px;
-    background-color: #0006;
-    border-radius: 36px;
-}
-
-
-/* ANIMATIONS */
-
-*[id^='section-'] {
-    opacity: 1;
-    animation: fade-in 0.5s ease-in-out;
-}
-
-.opacity0animation {
-    opacity: 0;
-    animation: fade-out 0.5s ease-in-out;
-}
-
-@keyframes fade-in {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fade-out {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-    }
+    transition: opacity 2s ease-in-out;
 }
