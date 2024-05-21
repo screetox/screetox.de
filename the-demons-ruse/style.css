@@ -1,4 +1,5 @@
 /* FONT */
+
 @import url('julee.css');
 
 
@@ -19,12 +20,11 @@
 
     font-family: 'Julee', cursive;
     color: #fff;
-
-    overflow: hidden;
 }
 
 html, body {
     height: 100%;
+    overflow: hidden;
 }
 
 body {
@@ -32,6 +32,10 @@ body {
     background-image: url(./img/background.png);
     background-size: cover;
     background-position: center;
+}
+
+h1, h2, h3 {
+    cursor: default;
 }
 
 h1 {
@@ -49,7 +53,7 @@ h3 {
     font-size: 32px;
 }
 
-a, button, .player-radio-button-label {
+a, button {
     cursor: pointer;
 }
 
@@ -99,9 +103,19 @@ input {
     filter: drop-shadow(5px 5px 5px #000);
 }
 
-#welcome-img {
+#landing-page {
     transform: translateY(75px);
     transition: transform 3s ease-in-out;
+}
+
+#landing-page-img {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#landing-page-title {
+    opacity: 0;
+    transition: opacity 2s ease-in-out 1s;
 }
 
 #login-form {
@@ -110,19 +124,26 @@ input {
     transition: opacity 2s ease-in-out 1s;
 }
 
-#login-form input {
+#login-name {
+    cursor: default;
     width: 250px;
     text-align: center;
 }
 
-#loader {
+#welcome {
     display: none;
     height: 100vh;
     width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+    transition: opacity 0.1s ease;
     background-color: #000;
 }
 
-#loading {
+#welcome-text {
     opacity: 0;
     transition: opacity 2s ease-in-out;
 }
