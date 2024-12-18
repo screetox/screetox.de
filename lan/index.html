@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../files/img/favicon.ico">
+    <link rel="stylesheet" href="../css/inconsolata.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>LAN Party</title>
+</head>
+
+<body>
+    <hr id="top-hr">
+    <div id="header">
+        <div id="top-menu">
+            <a href="../"><img class="website-logo" src="../files/img/logo_2021_klein.png"></a>
+            <nav id="header-nav">
+                <a href="../">Home</a>
+                <a href="../shop" id="shop-link-header">Shop</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://twitch.tv/screetox">Twitch</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCErEad8EovKrByoIZPC6yhQ?sub_confirmation=1">YouTube</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/a7yewEFapG">Discord</a>
+            </nav>
+        </div>
+    </div>
+
+    <div id="main">
+        <div id="lan-text" class="lan-text">
+            <h1>WinterLAN</h1>
+            <h3>28.12 - 30.12.2024</h3>
+            <h2>Spieleliste</h2>
+            <div id="game-list">
+                <div>
+                    <h3>4 oder 5 Spieler:</h3>
+                    <p>
+                        <a rel="noopener noreferrer" href="steam://open/games/details/945360">Among Us Hide & Seek</a>
+                        <br>Deceive Inc.
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/3268100">Finnish Cabin Mayhem</a>
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/4000">Garry's Mod</a>
+                        <br><a target="_blank" rel="noopener noreferrer" href="https://jackbox.tv/">Jackbox Games</a>
+                        <br>Lokale Brettspiele
+                        <br>Mario Kart
+                        <br>Mario Party
+                        <br>PICO PARK 2
+                        <br>Super Smash Bros.
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/11020">Trackmania Nations Forever</a>
+                        <br>Wii Sports
+                    </p>
+                </div>
+                <div>
+                    <h3>4 Spieler:</h3>
+                    <p>
+                        Boomerang Fu
+                        <br>Bus Simulator 21 Next Stop
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/1785150">Friends vs Friends</a>
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/431240">Golf With Your Friends</a>
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/1217060">Gunfire Reborn</a>
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/477160">Human: Fall Flat</a>
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/1016920">Unrailed!</a>
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/2419630">Wolrds of Aria</a>
+                        <br><a rel="noopener noreferrer" href="steam://open/games/details/233840">Worms Clan Wars</a>
+                        <br>(Make Way)
+                        <br>(<a rel="noopener noreferrer" href="steam://open/games/details/1599600">Plate Up</a>)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="bottom-menu">
+                <nav id="footer-nav">
+                    <a href="../">Home</a>
+                    <a href="../shop" id="shop-link-footer">Shop</a>
+                </nav>
+                <div id="copyright"></div>
+                <div id="footer-img">
+                    <a href="../"><img class="website-logo" src="../files/img/logo_2021_klein.png"></a>
+                </div>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+<style>
+    h1 {
+        margin-bottom: 0.1em;
+    }
+
+    h2 {
+        margin-bottom: 1em;
+    }
+
+    h3 {
+        margin: 0.1em 0 1em 0;
+    }
+
+    p {
+        margin-bottom: 1em;
+        line-height: 150%;
+        text-align: justify;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .lan-text {
+        background-color: #fff;
+        color: #000;
+
+        border-radius: 30px;
+        padding: 2em 5em;
+    }
+
+    #game-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 1em;
+    }
+
+    #game-list > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #game-list p {
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 1400.98px) {
+        .lan-text {
+            border-radius: 0;
+        }
+    }
+
+    @media only screen and (max-width: 1000.98px) {
+        #shop-link-header, #shop-link-footer {
+            display: none;
+        }
+
+        #lan-text {
+            padding: 2em;
+            font-size: 16px;
+        }
+    }
+</style>
+</html>
