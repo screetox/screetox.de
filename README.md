@@ -12,7 +12,6 @@ A personal website featuring links, community info, and multimedia content.
 
 - 🔗 **Social Links** – Quick access to Twitch, Discord, and more
 - 🎥 **Media Content** – Highlights and short clips
-- 🛍 **Merch** – A small online shop for community supporters
 - 👥 **Quiz-Tool** – Integrated [screetox/quiz-tool](https://github.com/screetox/quiz-tool)
 
 ## 🚀 Getting Started

@@ -1,7 +1,3 @@
-function toShop() {
-    location.href = './shop';
-}
-
 function toDiscord() {
     window.open('https://discord.gg/a7yewEFapG', '_blank').focus();
 }
